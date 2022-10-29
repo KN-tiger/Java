@@ -7,8 +7,14 @@ public class Chap2_3 {
     int age =
       Integer.parseInt(scanner.nextLine());
     if( age < 20 ){
+      System.out.println( age + "歳は");
       System.out.println("未成年");
+    }else if( age < 65) {
+      System.out.println( age + "歳は");
+      System.out.println("成人");
+    }else {
+      System.out.println( age + "歳は"); 
+      System.out.println("高齢者");
     }
-  
   }
 }
