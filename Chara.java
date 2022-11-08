@@ -1,5 +1,8 @@
 public class Chara{
-  private String job = "冒険者";
+  public String job = "冒険者";
+  public Chara(String job){
+    setJob(job);
+  }
   public void sayJob(){
     System.out.println( this.job + "です。");
   }
